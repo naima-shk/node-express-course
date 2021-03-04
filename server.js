@@ -28,10 +28,10 @@ const mockUserData=[
         const password= req.body.password;
 
         //this should come from database
-        const mockusername="billyTheKid";
-        const mockpassword="superSecret";
+        const mockUsername="billyTheKid";
+        const mockPassword="superSecret";
 
-        if(username===password && mockusername===mockpassword){
+        if(username===password && mockUsername===mockPassword){
             // In practice, use JSON web token sign method here to make an encrypted token
             res.json({
               success:true,
