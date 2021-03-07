@@ -4,8 +4,7 @@ const bodyParser = require ('body-parser');
 app.use (bodyParser.json());
 const mockUserData=[
     {name:'Mark'},
-    {name:'Jill'}
-    ]
+    {name:'Jill'}]
     app.get('/users', function(req,res){
          res.json({
               success: true,
